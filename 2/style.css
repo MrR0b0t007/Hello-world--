@@ -14,6 +14,16 @@ nav{
   font-family: 'Source Sans Pro', sans-serif;
 } 
 
+nav li {
+  margin: 10px;
+  display:inline;
+}
+
+nav ul {
+  float: left;
+  margin-top: 25px;
+}
+
 h1{
   font-family: 'Roboto', sans-serif;
   color:  #41A3C0; 
@@ -45,6 +55,8 @@ a:hover {
   color: rgb(225, 0, 152);
   font-size: 35px;
   font-family: 'Pacifico', cursive;
+  float: left;
+  margin-left: 50px;
 }
 
 /* Mis en forme de la baseline */
@@ -68,6 +80,12 @@ a:hover {
   font-weight: lighter;
   text-decoration: none;
 } 
+
+#baseline a:hover {
+  position: relative;
+  top:5px;
+}
+
 .feature {
  border: 5px solid blue;
  background: lightblue ;
@@ -79,10 +97,14 @@ a:hover {
 }
 
 #apropos{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
   border: 15px solid blue;
   background: pink ;
   margin: 0 auto;
   width: 80%;
+
 }
 
 
