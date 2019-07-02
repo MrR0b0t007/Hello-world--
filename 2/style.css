@@ -76,7 +76,7 @@ a:hover {
   background-size: cover;
   padding: 150px;
   color: white;
-  text-shadow: 1px 1px 5px black;
+  text-shadow: 5px 5px 5px blue;
 }
 
 #baseline h1 {
