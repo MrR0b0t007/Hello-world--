@@ -57,12 +57,22 @@ a:hover {
   font-family: 'Pacifico', cursive;
   float: left;
   margin-left: 50px;
+  color: rgb(225, 0, 152);
+}
+
+.defis #logo{
+  color:white;
 }
 
 /* Mis en forme de la baseline */
 #baseline{
   background-color: #41A3C0;
   text-align: center;
+  height: 450px;
+  padding: 150px;
+  color: white;
+  background: url(saumon-poisson.jpg) no-repeat top center fixed; 
+  -webkit-background-size: cover;
   background-size: cover;
   padding: 150px;
   color: white;
@@ -70,9 +80,17 @@ a:hover {
 }
 
 #baseline h1 {
-  color: white;
   font-size: 50px;
+  color: rgb(225, 0, 152);
 }
+
+
+#baseline h2 {
+  color: white;
+  font-size: 30px;
+
+}
+
 
 #baseline a {
   color: white;
@@ -111,6 +129,61 @@ a:hover {
     color: red; 
 
 }
+
+/* Mise en forme de la div de feature */
+
+.feature,.defi{
+  border: 1px solid #F2F2F2;
+  background: #FAFAFA;
+  margin: 15px;
+  padding: 15px 0;
+  text-align: center;
+  width: 400px;
+}
+
+
+#welcome{
+  background-color: #41A3C0;
+  text-align: center;
+  padding: 50px;
+  color: white;
+}
+
+#welcome h4{
+ font-size: 50px;
+}
+
+#defis{
+  margin-top:100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1000px;
+
+}
+
+
+#defis h2 {
+  color: rgb(225, 0, 152);
+
+}
+
+
+footer {
+  text-align:center;
+  background-color: #41A3C0;
+}
+
+
+
+footer p {
+   color: white;
+   margin: 0;
+   padding: 0;
+}
+
 
 
 
